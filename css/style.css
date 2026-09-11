@@ -27,6 +27,17 @@ CONTAINER
     width: 90%;
     max-width: 1200px;
     margin: auto;
+
+}
+
+
+
+.stat h3 {
+    font-size: 10px;
+}
+
+.stat p {
+    margin-top: 20px;
 }
 
 /* ===========================
@@ -368,7 +379,7 @@ PORTFÓLIO
     border-radius: 20px;
 }
 
-.portfolio-item img{
+.portfolio-item img {
     width: 100%;
     height: 250px;
     object-fit: cover;
@@ -376,7 +387,7 @@ PORTFÓLIO
     display: block;
 }
 
-.portfolio-item:hover{
+.portfolio-item:hover {
     cursor: pointer;
     box-shadow: 10px 10px 10px #797777;
 }
